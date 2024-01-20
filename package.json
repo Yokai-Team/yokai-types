@@ -1,0 +1,15 @@
+{
+  "name": "@yokai-team/types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Draver Industries <draver.industries@proton.me>",
+  "license": "MIT",
+  "files": [
+    "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "description": "Types for yokai team",
+  "repository": {
+    "url": "https://github.com/Yokai-Team/yokai-types"
+  }
+}
