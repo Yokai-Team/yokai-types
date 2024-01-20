@@ -11,5 +11,19 @@
   "description": "Types for yokai team",
   "repository": {
     "url": "https://github.com/Yokai-Team/yokai-types"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./src/*": "./dist/*",
+    "./dist/*": "./dist/*"
   }
 }
